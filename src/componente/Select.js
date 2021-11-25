@@ -24,6 +24,8 @@ const Select = ({updateDog}) => {
   };
 
   return (
+    <div>
+       <h1> Selecciona tu Raza</h1>
     <select className="Select" onChange={(e) => updateDog(e.target.value)}>
       {breeds.map((breed) => (
         <option value={breed.id} key={breed.id}>
@@ -31,6 +33,7 @@ const Select = ({updateDog}) => {
         </option>
       ))}
     </select>
+    </div>
   );
 };
 export default Select;
