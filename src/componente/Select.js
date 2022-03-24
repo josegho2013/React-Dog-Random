@@ -24,7 +24,7 @@ const Select = ({ updateDog }) => {
   };
 
   return (
-    <div>
+    <div className="container-general">
       <div className="line_dog"></div>
       
       <h1> Selecciona tu Raza</h1>
