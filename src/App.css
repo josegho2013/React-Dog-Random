@@ -21,10 +21,24 @@ body {
 }
 .navbar_container {
   display: flex;
+    margin: auto;
+    padding: 10px 9%;
+    align-items: baseline;
+    background-color: black;
+    font-family: "Urbanist";
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: 98%;
+}
+.footer_container {
+  display: flex;
   margin: auto;
   padding: 10px 9%;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  font-family: "Urbanist";
+  font-family: 'Urbanist';
 }

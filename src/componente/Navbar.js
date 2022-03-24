@@ -3,8 +3,6 @@ import { React, useState } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { GiGecko } from "react-icons/gi";
 
-
-
 function NavBar() {
   return (
     <div className="navbar_container">
@@ -14,10 +12,6 @@ function NavBar() {
         MANGO <br />
         GAMES
       </h1>
-
-      <button type="submit">
-        <BiSearchAlt />
-      </button>
     </div>
   );
 }
